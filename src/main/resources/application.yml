@@ -1,0 +1,10 @@
+gateway:
+  routers:
+    - id: order_route
+      uri: http://127.0.0.1:7000
+      predicates: /orderService/
+    - id: order_route2
+      uri: http://127.0.0.1:7000
+      predicates: /orderService2/
+
+
